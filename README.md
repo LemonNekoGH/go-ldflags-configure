@@ -4,7 +4,7 @@
 
 执行
 ```bash
-$ go build -o test main.go && ./test
+$ go run main.go
 ```
 结果
 ```bash
@@ -13,7 +13,7 @@ program version: 0.0.1
 
 执行
 ```bash
-$ go build -ldflags "-X main.version=0.1.0" -o test main.go && ./test
+$ go run -ldflags "-X main.version=0.1.0" main.go
 ```
 结果
 ```bash
